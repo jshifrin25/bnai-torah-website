@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.construction {
+  font-size: 34px;
+  color: #FFB700;
+  padding: 50px;
+}
+
+.construction img {
+  display: block;
+  float: right;
+  width: 300px;
+  position: relative;
+}

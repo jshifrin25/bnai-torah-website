@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div.construction 
+    span.construction-text The site is currently under construction
+  div: svg(width="500" height="300")
+      rect(width="200" height="200" x="85" y="-50" fill="#eeed00" stroke="#333" stroke-width="2" transform="rotate(45 50 50)")
+      text(x="100" y="120" stroke="#000" font-size="34") Under 
+      text(x="45" y="160" stroke="#000" font-size="34") Construction

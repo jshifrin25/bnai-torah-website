@@ -1,9 +1,20 @@
 body {
-  font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
+}
+
+.clearfix:after {
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.content {
+    position: relative;
+    float: left;
 }
 
 .content-top {
@@ -14,16 +25,11 @@ a {
 
 h1 {
     font-weight: 700;
+    font-size: 2rem;
 }
 
 p {
     font-weight: 300;
-}
-
-.construction {
-  font-size: 34px;
-  color: #FFB700;
-  font-weight: 800;    
 }
 
 .heading {
@@ -31,10 +37,17 @@ p {
 }
 
 .construction {
-  display: block;
-  font-size: 1.8rem;
-  position: relative;
-  float: left;
+    display: block;
+    font-size: 1.8rem;
+    position: relative;
+    float: left;
+}
+
+.construction-text {
+    display: block;
+    font-size: 34px;
+    color: #FFB700;
+    font-weight: 800;
 }
 
 .sign {
@@ -48,12 +61,26 @@ p {
     display: block;
     float: left;
     position: relative;
-    margin: 20px;
+    margin: 20px 50px 10px 20px;
 }
 
-.left-side .top, .left-side .bottom {
-    padding: 35% 0;
+
+.left-side .top,
+.left-side .bottom {
+    position: relative;
 }
+
 .left-side .middle {
-    padding: 34% 0;
+    position: relative;
+}
+
+.donate-title {
+    font-size: 0.83rem;
+    margin: 0.5em 0;
+}
+
+.donate-one-time {
+    display: block;
+    margin: 0 0 0.3rem 0.5rem;
+    font-size: 0.7rem;
 }
